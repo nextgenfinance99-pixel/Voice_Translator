@@ -1,0 +1,24 @@
+{
+  "name": "globalconnect",
+  "version": "1.0.0",
+  "description": "Realtime Voice Translation",
+  "keywords": [
+    "translation",
+    "Voice"
+  ],
+  "license": "ISC",
+  "author": "TJ",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^5.0.0",
+    "@google-cloud/translate": "^9.3.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
